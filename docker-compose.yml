@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  custodiaplataforma.api:
+    image: ${DOCKER_REGISTRY-}custodiaplataformaapi
+    build:
+      context: .
+      dockerfile: CustodiaPlataforma.API/Dockerfile
+
