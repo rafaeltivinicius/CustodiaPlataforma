@@ -1,4 +1,4 @@
-#Plataforma de Custódia
+ # Plataforma de Custódia
 
 - O projeto foi construída com .Net Core 3.1, API no padrão Rest, com Docker e sendo cacheada com Redis, separada nas camadas : API,  Service,  DTO e  Infra.  
 - Cada produto tem seu próprio serviço e repositório, com chamadas assíncronas. A regra de negócio da posição consolidada encontra-se no service do mesmo.
