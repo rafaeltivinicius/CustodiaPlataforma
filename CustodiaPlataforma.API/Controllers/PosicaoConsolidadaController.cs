@@ -34,9 +34,9 @@ namespace CustodiaPlataforma.API.Controllers
 
         #endregion swagger doc
         [HttpGet("api/v1/[controller]/")]
-        public async Task<IActionResult> ObterTesouroDireto()
+        public async Task<IActionResult> ObterPosicaoConsolidada()
         {
-            return Ok(await _posicaoConsolidadaService.ObterValorTotalInvestido());
+            return Ok(await _posicaoConsolidadaService.ObterPosicaoConsolidada());
         }
     }
 }

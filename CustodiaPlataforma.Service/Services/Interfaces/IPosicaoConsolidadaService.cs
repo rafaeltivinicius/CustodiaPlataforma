@@ -5,6 +5,6 @@ namespace CustodiaPlataforma.Service.Services.Interfaces
 {
     public interface IPosicaoConsolidadaService
     {
-        Task<ExtratoPosicaoConsolidadaResponseDTO> ObterValorTotalInvestido();
+        Task<ExtratoPosicaoConsolidadaResponseDTO> ObterPosicaoConsolidada();
     }
 }

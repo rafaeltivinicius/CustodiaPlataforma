@@ -26,7 +26,7 @@ namespace CustodiaPlataforma.Service.Services
 
         #region Metodos Publicos
 
-        public async Task<ExtratoPosicaoConsolidadaResponseDTO> ObterValorTotalInvestido()
+        public async Task<ExtratoPosicaoConsolidadaResponseDTO> ObterPosicaoConsolidada()
         {
             return (await _cacheService
                    .Obter<ExtratoPosicaoConsolidadaResponseDTO>("posicaoConsolidada"))
